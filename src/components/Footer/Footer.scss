@@ -1,6 +1,14 @@
 footer{
-    background-color: rgb(99, 97, 97);
-    height: 96px;
+    border: none;
+    background: rgb(251,33,117);
+      background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+      color: #fff;
+      overflow: hidden;
+      line-height: 0px;
+      padding: 0;
+      border: none;
+    height: 80px;
+    margin-top: 20px;
 }
 
 footer p {
@@ -8,4 +16,5 @@ footer p {
     font-weight: bold;
     padding-top: 30px;
     padding-left: 40px;
+    
 }

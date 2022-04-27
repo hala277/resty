@@ -74,15 +74,15 @@ function Form(props) {
                 <label id="url">
                     <span> URL:</span>
                     <input type="text" name="url" id="url" placeholder="http://api.url.here" onChange={changeHandler} />
-                    <button type="submit" value="submit" onClick={submitHandler}> GO! </button>
+                    <button className="custom-btn btn-11" type="submit" value="submit" onClick={submitHandler}> GO! </button>
                 </label>
                 <br></br>
                 <br></br>
                 <label id="methode">
-                    <input type="button" value="GET" onClick={buttonHandler} />
-                    <input type="button" value="POST" onClick={buttonHandler} />
-                    <input type="button" value="PUT" onClick={buttonHandler} />
-                    <input type="button" value="DELETE" onClick={buttonHandler} />
+                    <input className="custom-btn btn-11" type="button" value="GET" onClick={buttonHandler} />
+                    <input className="custom-btn btn-11" type="button" value="POST" onClick={buttonHandler} />
+                    <input className="custom-btn btn-11"  type="button" value="PUT" onClick={buttonHandler} />
+                    <input className="custom-btn btn-11"  type="button" value="DELETE" onClick={buttonHandler} />
                 </label>
                 <br id="br"></br>
 
