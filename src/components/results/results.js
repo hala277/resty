@@ -1,11 +1,10 @@
-import React from "react";
 
 
-function Results (){
+const Results = (props) => {
    
     return(
         <section>
-          results
+          <pre>{props.data ? JSON.stringify(this.props.data , undefined , 2) : null}</pre>
         </section>
     )
     }
