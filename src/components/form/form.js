@@ -15,18 +15,22 @@ class Form extends React.Component {
         this.buttonHandler = this.buttonHandler.bind(this);
     }
 
-    changeHandler(e) {
-        let url = e.target.value;
-        this.setState({ url });
-    }
-    submitHandler(e) {
+    changeHandler = (e) => {
         e.preventDefault();
+        let urlsub = e.target.value;
+        this.setState({ urlsub })
+
+       
+    }
+    submitHandler = (e) =>  {
+        e.preventDefault();
+        this.setState({  url :this.state.urlsub , method: this.state.methodhan});
 
     }
 
-    buttonHandler(e) {
-        let method = e.target.value;
-        this.setState({ method })
+    buttonHandler = (e) => {
+        let methodhan = e.target.value;
+        this.setState({ methodhan })
     }
 
     render() {

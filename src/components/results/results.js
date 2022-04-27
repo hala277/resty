@@ -1,11 +1,11 @@
-import React from "react";
 
 
-function Results (){
+const Results = (props) => {
    
     return(
         <section>
-          results
+          results:
+          {/* <textarea readonly className="results" value={props.method +' '+ props.url} /> */}
         </section>
     )
     }
