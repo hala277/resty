@@ -1,14 +1,50 @@
-#data{
-   
+section {
+
+    
+    label #req {
+        text-align: center;
+        line-height: 150%;
+       
+    }
+
+    #req p {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        padding: 8px;
+        font-family: Arial;
+       
+    }
+   #left{
+    width: 50%; 
+    // height: 15px; 
+    margin-top: 6px;
+    float: left;
+    display: table-cell
+
+ }
+  #right{
+    // margin-left: 0%;
+     
+    display: table-cell;
+    // height: 10px;
+    
+ }
+
+    #data {
+
         border-style: outset;
-        border: 2px solid rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(251,33,117);
+       
         border-radius: 9px;
         width: 60%;
-        height: 300px;
+        height: 250px;
         padding: 10px;
         margin: 0 0 0 20%;
         overflow: auto;
-        
-    
+        background:rgb(255, 255, 255);
+       
+
+    }
 }

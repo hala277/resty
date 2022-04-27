@@ -1,16 +1,30 @@
 
-
-
-header h1{
-    background-color:#363636;
+header{
+width: 100%;
+ h1{
+    // background-color:#363636;
     height: 100px; 
+    width: 100%;
     font-family: 'Montserrat';
     font-size: 36px;
     font-weight: 450;
-    line-height: 100px;
+    // line-height: 90px;
     text-align: center;
     color: white;
     margin-top: 0px;
+
    
 }
 
+ h1{
+    border: none;
+    background: rgb(251,33,117);
+      background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+      color: #fff;
+      overflow: hidden;
+}
+
+#h1{
+    line-height: 90px;
+}
+}
