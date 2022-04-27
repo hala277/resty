@@ -4,8 +4,7 @@ const Results = (props) => {
    
     return(
         <section>
-          results:
-          {/* <textarea readonly className="results" value={props.method +' '+ props.url} /> */}
+          <pre>{props.data ? JSON.stringify(this.props.data , undefined , 2) : null}</pre>
         </section>
     )
     }
