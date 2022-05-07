@@ -5,7 +5,9 @@ const Header = () => {
     return (
         <header>
             <h1 id="h1">RESTy</h1>
+            <br></br>
         </header>
+       
     )
 }
 
