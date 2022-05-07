@@ -34,4 +34,7 @@ Deploy to GitHub Pages, Netlify, and/or AWS
 [pull req](https://github.com/hala277/resty/pull/1)
 
 ## pull req2
-[pull req](https://github.com/hala277/resty/pull/5)
+[pull req](https://github.com/hala277/resty/pull/6)
+
+## website linke from netlify
+[netlify link](https://6276b09f281d78262fa56f77--fanciful-gnome-e4c501.netlify.app/)
