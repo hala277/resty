@@ -16,13 +16,14 @@ const callApi = async (Request) => {
   setRequest(Request);
 
 const response = await axios(Request.url,(Request.body) ? (Request.body): null );
-const results = {
+const result = {
+  headers: response.headers,
   results:response.data
 }
-setData(results);
-console.log('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh',results)
+setData(result);
+console.log('app result',result)
 }
-
+// console.log('dataaaaaaaaa',data.headers)
 
   
   return (

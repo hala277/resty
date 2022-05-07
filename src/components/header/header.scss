@@ -4,14 +4,16 @@ width: 100%;
  h1{
     // background-color:#363636;
     height: 100px; 
-    width: 100%;
+    // width: 100%;
     font-family: 'Montserrat';
     font-size: 36px;
     font-weight: 450;
     // line-height: 90px;
-    text-align: center;
+    text-align:left;
     color: white;
     margin-top: 0px;
+    margin-left: 40px;
+    
 
    
 }
@@ -22,6 +24,7 @@ width: 100%;
       background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
       color: #fff;
       overflow: hidden;
+    //   margin-right: 30px;
 }
 
 #h1{
