@@ -74,7 +74,7 @@ function Form(props) {
                 <label id="url">
                     <span> URL:</span>
                     <input type="text" name="url" id="url" placeholder="http://api.url.here" onChange={changeHandler} />
-                    <button className="custom-btn btn-11" type="submit" value="submit" onClick={submitHandler}> GO! </button>
+                    <button className="custom-btn btn-11" type="submit" value="submit" onSubmit={submitHandler}> GO! </button>
                 </label>
                 <br></br>
                 <br></br>
