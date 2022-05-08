@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2b1314e.css",
-    "main.js": "/static/js/main.38d4b91a.js",
-    "index.html": "/index.html",
-    "main.b2b1314e.css.map": "/static/css/main.b2b1314e.css.map",
-    "main.38d4b91a.js.map": "/static/js/main.38d4b91a.js.map"
+    "main.css": "/resty.github.io/static/css/main.3160b005.css",
+    "main.js": "/resty.github.io/static/js/main.a51b8e5a.js",
+    "index.html": "/resty.github.io/index.html",
+    "main.3160b005.css.map": "/resty.github.io/static/css/main.3160b005.css.map",
+    "main.a51b8e5a.js.map": "/resty.github.io/static/js/main.a51b8e5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2b1314e.css",
-    "static/js/main.38d4b91a.js"
+    "static/css/main.3160b005.css",
+    "static/js/main.a51b8e5a.js"
   ]
 }
